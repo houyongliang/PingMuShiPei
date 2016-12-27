@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PingMuShiPei</string>
+    <string name="hello_blank_fragment">第 一 个 fragment</string>
+    <string name="hello_ait_fragment">第二个 fragment</string>
+</resources>

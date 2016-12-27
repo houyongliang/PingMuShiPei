@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#4400ff00"
+    android:orientation="horizontal">
+    <!-- 列表 -->
+    <fragment
+
+        android:id="@+id/headlines"
+        android:name="com.fnfh.pingmushipei.BlankFragment"
+        android:layout_width="400dp"
+        android:layout_height="fill_parent"
+        android:background="#4400ff00"
+        android:layout_marginRight="10dp" />
+    <!-- 列表项的详细信息 -->
+    <fragment
+        android:id="@+id/article"
+        android:name="com.fnfh.pingmushipei.AitFragment"
+        android:layout_width="fill_parent"
+        android:background="#440000ff"
+        android:layout_height="fill_parent" />
+</LinearLayout>
