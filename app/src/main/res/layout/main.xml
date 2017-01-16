@@ -5,13 +5,23 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
      tools:context="com.fnfh.pingmushipei.MainActivity"
-    android:orientation="horizontal">
+    android:orientation="vertical">
 
-    <fragment android:id="@+id/headlines"
-        android:layout_height="fill_parent"
-        android:layout_width="match_parent"
-        android:background="#22ff0000"
-        android:name="com.fnfh.pingmushipei.BlankFragment"
 
-        />
+  <TextView
+      android:layout_gravity="center_horizontal"
+      android:gravity="center"
+      android:layout_width="200px"
+      android:layout_height="100px"
+     android:textSize="20sp"
+      android:text="帅哥。。。"
+      />
+  <android.support.v7.widget.RecyclerView
+      android:id="@+id/ry"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:background="@color/colorAccent"></android.support.v7.widget.RecyclerView>
+
+
+
 </LinearLayout>
